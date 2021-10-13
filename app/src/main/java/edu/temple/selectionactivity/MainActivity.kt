@@ -2,6 +2,7 @@ package edu.temple.selectionactivity
 
 
 import android.content.Intent
+import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
@@ -11,19 +12,22 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 
+//val str = Resources.getSystem().getString(R.string.sandwhich)
 
-val foodArray: Array<Image> = arrayOf(Image("sandwhich",R.drawable.chicken_sandwhich),
-    Image("tofu",R.drawable.tofu_stew),Image("Fried Chicken",R.drawable.fried_chicken)
-    ,Image("Corn Dog",R.drawable.corn_dog), Image("Dumplings",R.drawable.dumpling)
-    ,Image("Onigiri",R.drawable.onigiri),Image("Pork Belly",R.drawable.pork_belly)
-    ,Image("Pork Bun",R.drawable.pork_bun),Image("Ramen",R.drawable.ramen)
-    ,Image("Steak",R.drawable.steak),Image("Sushi",R.drawable.sushi))
+
 
 const val EXTRA_MESSAGE = "edu.temple.selectionactivity.MESSAGE"
 const val EXTRA_IMAGE = "edu.temple.selectionactivity.IMAGE"
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        val foodArray: Array<Image> = arrayOf(Image(resources.getString(R.string.sandwhich),R.drawable.chicken_sandwhich),
+            Image(resources.getString(R.string.tofu),R.drawable.tofu_stew),Image(resources.getString(R.string.fried_Chicken),R.drawable.fried_chicken)
+            ,Image(resources.getString(R.string.corn_Dog),R.drawable.corn_dog), Image(resources.getString(R.string.dumplings),R.drawable.dumpling)
+            ,Image(resources.getString(R.string.onigiri),R.drawable.onigiri),Image(resources.getString(R.string.pork_Belly),R.drawable.pork_belly)
+            ,Image(resources.getString(R.string.pork_Bun),R.drawable.pork_bun),Image(resources.getString(R.string.ramen),R.drawable.ramen)
+            ,Image(resources.getString(R.string.steak),R.drawable.steak),Image(resources.getString(R.string.sushi),R.drawable.sushi))
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
