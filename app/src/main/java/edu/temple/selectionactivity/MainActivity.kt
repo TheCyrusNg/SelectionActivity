@@ -12,9 +12,6 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 
-//val str = Resources.getSystem().getString(R.string.sandwhich)
-
-
 
 const val EXTRA_MESSAGE = "edu.temple.selectionactivity.MESSAGE"
 const val EXTRA_IMAGE = "edu.temple.selectionactivity.IMAGE"

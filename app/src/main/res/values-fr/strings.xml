@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SelectionActivity</string>
-    <string name="instructions">Click on image below to view</string>
-    <string name="sandwhich">"Sandwhich"</string>
+    <string name="app_name">Activité de sélection</string>
+    <string name="food_image_viewer">Visionneuse d\'images alimentaires</string>
+    <string name="displayActivity">AfficherActivité</string>
+    <string name="instructions">Cliquez sur l\'image ci-dessous pour voir</string>
+    <string name="sandwhich">Sandwich</string>
     <string name="tofu">Tofu</string>
-    <string name="fried_Chicken">Fried Chicken</string>
-    <string name="corn_Dog">Corn Dog</string>
+    <string name="fried_Chicken">Poulet frit</string>
+    <string name="corn_Dog">Chien de maïs</string>
     <string name="dumplings">Dumplings</string>
     <string name="onigiri">Onigiri</string>
-    <string name="pork_Belly">Pork Belly</string>
-    <string name="pork_Bun">Pork Bun</string>
+    <string name="pork_Belly">Poitrine de porc</string>
+    <string name="pork_Bun">Pain au porc</string>
     <string name="ramen">Ramen</string>
-    <string name="steak">Steak</string>
+    <string name="steak">Bifteck</string>
     <string name="sushi">Sushi</string>
 </resources>

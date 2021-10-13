@@ -5,12 +5,12 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Food Image Viewer"
+        android:label="@string/food_image_viewer"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SelectionActivity">
         <activity android:name=".DisplayActivity"
-            android:label = "DisplayActivity"></activity>
+            android:label = "@string/displayActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

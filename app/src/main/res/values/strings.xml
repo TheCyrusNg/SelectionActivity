@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">SelectionActivity</string>
+    <string name="food_image_viewer">Food Image Viewer</string>
+    <string name="displayActivity">DisplayActivity</string>
     <string name="instructions">Click on image below to view</string>
     <string name="sandwhich">"Sandwhich"</string>
     <string name="tofu">Tofu</string>
