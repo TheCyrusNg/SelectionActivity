@@ -32,6 +32,12 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter=adapter
         recyclerView.layoutManager= GridLayoutManager(this, 3)
 
+        val testString : String = "example only"
+        var bundle = Bundle()
+        bundle.putParcelableArray("test", foodArray)
+        var frag = SelectionFragment()
+        frag.arguments = bundle
+
         adapter.setOnItemClickListener(object : ImageAdapter.onItemClickListener{
             override fun onItemClick(position: Int) {
                 val message = foodArray[position].description
